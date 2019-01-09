@@ -1,8 +1,7 @@
 import $ from 'jquery';
-import { Weekday } from './weekday';
+import { Calculator } from './calculator';
 
 $(document).ready(function(){
-
 
 
 });
