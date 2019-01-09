@@ -36,15 +36,15 @@ describe('Calculator', function(){
   });
 
   it('finds the number of days in total years between anchor date', function(){
-    expect(date.daysInCompletedYears()).toEqual(736331);
-    expect(anotherDate.daysInCompletedYears()).toEqual(735965);
-    expect(anExtraDate.daysInCompletedYears()).toEqual(735965);
+    expect(date.daysInCompletedYears()).toEqual(736329);
+    expect(anotherDate.daysInCompletedYears()).toEqual(735963);
+    expect(anExtraDate.daysInCompletedYears()).toEqual(735963);
   });
 
   it('finds the number of days in total years, months and days between inputted date and anchor date', function(){
-    expect(date.calculateTotalDays()).toEqual(42832);
-    expect(anotherDate.calculateTotalDays()).toEqual(42467);
-    expect(anExtraDate.calculateTotalDays()).toEqual(42384);
+    expect(date.calculateTotalDays()).toEqual(736427);
+    expect(anotherDate.calculateTotalDays()).toEqual(736062);
+    expect(anExtraDate.calculateTotalDays()).toEqual(735979);
 
 
   });
